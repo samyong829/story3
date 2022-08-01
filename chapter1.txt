@@ -1,1 +1,20 @@
 this is 1.
+
+cd "the file"
+touch chapter1.txt (make the file)
+git init
+git status
+git add chapter1.txt
+git add . (git add all file)
+git status  (to check)
+git commit -m "Complete Chapter 1" (to remark what doing)
+git log (review all teh item that doing past)
+git diff chapter1.txt (check the different)
+git checkout chapter1.txt (direct reverst to the last file, 
+reverse back what u change)
+git remote add origin https//github.com/samyong829/story3.git (upload to github)
+git push -u origin master (from first be default)
+git rm --cached 《file》  (after  git add the file but need to delete(remove) back。）
+git clone <copied http from git hub>
+git branch <alien-plot> (use when other to add something)
+git checkout <master/alien-plot> (switch to branch) 
